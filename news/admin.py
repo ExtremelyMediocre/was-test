@@ -1,3 +1,4 @@
 from django.contrib import admin
+from news.models import SchoolNews
 
-# Register your models here.
+admin.site.register(SchoolNews)
